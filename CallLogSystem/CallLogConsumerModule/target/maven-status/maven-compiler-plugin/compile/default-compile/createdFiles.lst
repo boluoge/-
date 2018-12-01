@@ -1,0 +1,3 @@
+com\it18zhang\calllog\consumer\HbaseDao.class
+com\it18zhang\calllog\consumer\HbaseConsumer.class
+com\it18zhang\calllog\consumer\PropertiesUtil.class
