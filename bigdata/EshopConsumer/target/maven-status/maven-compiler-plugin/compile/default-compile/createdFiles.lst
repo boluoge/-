@@ -1,0 +1,3 @@
+com\chenway\kafkaconsumer\HiveCleandConsumer.class
+com\chenway\kafkaconsumer\CloseFSOutputStreamTask.class
+com\chenway\kafkaconsumer\MyFSDataOutputStream.class

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/hdfs/pom.xml" />
+        <option value="$PROJECT_DIR$/jdbcDeno/pom.xml" />
+        <option value="$PROJECT_DIR$/hiveDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/hivedem/pom.xml" />
+        <option value="$PROJECT_DIR$/hivedemo/pom.xml" />
+        <option value="$PROJECT_DIR$/protobufDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeperDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/hbaseDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/flumeDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/KafakaDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/stormDemo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

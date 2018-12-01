@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HadoopDemo.iml" filepath="$PROJECT_DIR$/HadoopDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KafakaDemo/KafakaDemo.iml" filepath="$PROJECT_DIR$/KafakaDemo/KafakaDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flumeDemo/flumeDemo.iml" filepath="$PROJECT_DIR$/flumeDemo/flumeDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hbaseDemo/hbaseDemo.iml" filepath="$PROJECT_DIR$/hbaseDemo/hbaseDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hdfs/hdfs.iml" filepath="$PROJECT_DIR$/hdfs/hdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hivedem/hivedem.iml" filepath="$PROJECT_DIR$/hivedem/hivedem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hivedemo/hivedemo.iml" filepath="$PROJECT_DIR$/hivedemo/hivedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbcDeno/jdbcDeno.iml" filepath="$PROJECT_DIR$/jdbcDeno/jdbcDeno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/protobufDemo/protobufDemo.iml" filepath="$PROJECT_DIR$/protobufDemo/protobufDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stormDemo/stormDemo.iml" filepath="$PROJECT_DIR$/stormDemo/stormDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeperDemo/zookeeperDemo.iml" filepath="$PROJECT_DIR$/zookeeperDemo/zookeeperDemo.iml" />
+    </modules>
+  </component>
+</project>

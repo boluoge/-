@@ -1,0 +1,33 @@
+package com.chenway.springbootdruid.controller;
+
+import com.chenway.springbootdruid.dao.StudentJPA;
+import com.chenway.springbootdruid.pojo.Student;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
+
+@RestController
+@RequestMapping(value = "/student")
+public class StudentController {
+
+    @Autowired
+    private StudentJPA studentJPA;
+
+    @RequestMapping(value = "/list",method = RequestMethod.GET)
+    public List<Student> list(){
+        return studentJPA.findAll();
+    }
+
+    @RequestMapping(value = "/save",method = RequestMethod.GET)
+    public Student save(Student student){
+        return studentJPA.save(student);
+    }
+
+    @RequestMapping(value = "/delete",method = RequestMethod.GET)
+    public void delete(Student student){
+         studentJPA.delete(student);
+    }
+}

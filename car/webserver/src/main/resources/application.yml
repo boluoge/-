@@ -1,0 +1,74 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  hive:
+    url: jdbc:hive2://s128:10000/car?useUnicode=true&characterEncoding=utf-8
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: org.apache.hive.jdbc.HiveDriver
+    username:
+    password:
+    filters: stat,wall,log4j
+    maxActive: 20
+    initialSize: 1
+    maxWait: 600000
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 600000
+    minEvictableIdleTimeMill: 3000000
+    validationQuery: true
+    testWhileiIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+
+
+  mysql:
+    url: jdbc:mysql://localhost:3306/car?useUnicode=true&characterEncoding=utf-8
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    filters: stat,wall,log4j
+    maxActive: 20
+    initialSize: 1
+    maxWait: 600000
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 600000
+    minEvictableIdleTimeMill: 3000000
+    validationQuery: true
+    testWhileiIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+
+
+  redis:
+    port: 6379
+    host: s128
+    jedis:
+      pool:
+        max-wait: 60000
+        max-idle: 20
+        min-idle: 1
+        max-active: 20
+    database: 0
+  jpa:
+    show-sql: true
+    database: mysql
+    hibernate:
+      naming:
+        implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+
+hbase:
+  config:
+    hbase.zookeeper.quorum: s128,129,s130
+    hbase.zookeeper.property.clientPort: 2181
+    fs.defaultFS: hdfs://mycluster:8020
+    fs.trash.interval: 1
+
+

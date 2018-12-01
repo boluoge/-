@@ -1,0 +1,4 @@
+com\chenway\gendata\App.class
+com\chenway\gendata\utils\RandomFloatUtil.class
+com\chenway\gendata\utils\GetLocationUtil.class
+com\chenway\gendata\utils\GetLo.class

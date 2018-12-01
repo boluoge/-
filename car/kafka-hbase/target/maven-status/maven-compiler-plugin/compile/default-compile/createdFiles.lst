@@ -1,0 +1,2 @@
+com\chenway\kafka2hbase\HbaseConsumer.class
+com\chenway\kafka2hbase\dao\HbaseConsumerDao.class

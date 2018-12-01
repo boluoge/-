@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="flumeDemo" />
+        <module name="hbaseDemo" />
+        <module name="hdfs" />
+        <module name="hivedem" />
+        <module name="hivedemo" />
+        <module name="jdbcDeno" />
+        <module name="KafakaDemo" />
+        <module name="protobufDemo" />
+        <module name="stormDemo" />
+        <module name="zookeeperDemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="flumeDemo" target="1.5" />
+      <module name="hbaseDemo" target="6" />
+      <module name="hdfs" target="1.8" />
+      <module name="hivedem" target="1.5" />
+      <module name="hivedemo" target="1.5" />
+      <module name="hiveDemo" target="1.5" />
+      <module name="jdbcDeno" target="1.5" />
+      <module name="KafakaDemo" target="1.5" />
+      <module name="protobufDemo" target="1.5" />
+      <module name="stormDemo" target="1.5" />
+      <module name="zookeeperDemo" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

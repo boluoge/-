@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main">
+    <target name="main">
+        <echo>---------开始复制jar包到共享目录下----------</echo>
+        <delete file="D:\downloads\bigdata\data\HdfsDemo-1.0-SNAPSHOT.jar"></delete>
+        <copy file="target/hdfs-hadoop-2.7.3.jar" toFile="e:\data\HdfsDemo.jar"></copy>
+    </target>
+</project>

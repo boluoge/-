@@ -1,0 +1,9 @@
+com\chenway\kafka2hdfs\tool\HiveCleandConsumer.class
+com\chenway\kafka2hdfs\HdfsConsumer$2.class
+com\chenway\kafka2hdfs\tool\CloseFSOutputStreamTask.class
+com\chenway\kafka2hdfs\tool\HdfsConsumerDao.class
+com\chenway\kafka2hdfs\HdfsConsumer$1.class
+com\chenway\kafka2hdfs\HdfsConsumer.class
+com\chenway\kafka2hdfs\tool\HDFSOutputStreamPool.class
+com\chenway\kafka2hdfs\tool\MyFSDataOutputStream.class
+com\chenway\kafka2hdfs\utils\StringUtil.class
